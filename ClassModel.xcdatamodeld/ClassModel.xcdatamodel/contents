@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AddTimeLog" representedClassName="AddTimeLog" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="completionpercentage" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endtime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="length" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="starttime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Assignment" representedClassName="Assignment" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="duedate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="grade" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="progress" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <attribute name="timeleft" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totaltime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="AssignmentTypes" representedClassName="AssignmentTypes" syncable="YES">
+        <attribute name="rangemax" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rangemin" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Classcool" representedClassName="Classcool" syncable="YES">
+        <attribute name="assignmentnumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="googleclassroomid" optional="YES" attributeType="String"/>
+        <attribute name="gradingscheme" optional="YES" attributeType="String"/>
+        <attribute name="isTrash" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="originalname" optional="YES" attributeType="String"/>
+        <attribute name="tolerance" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Freetime" representedClassName="Freetime" syncable="YES">
+        <attribute name="enddatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="friday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="monday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="saturday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="startdatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sunday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tempenddatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="tempstartdatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="thursday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tuesday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="wednesday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Subassignmentnew" representedClassName="Subassignmentnew" syncable="YES">
+        <attribute name="assignmentduedate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="assignmentname" optional="YES" attributeType="String"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="enddatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startdatetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="AddTimeLog" positionX="18" positionY="117" width="128" height="148"/>
+        <element name="Assignment" positionX="27" positionY="18" width="128" height="193"/>
+        <element name="AssignmentTypes" positionX="27" positionY="126" width="128" height="88"/>
+        <element name="Classcool" positionX="0" positionY="9" width="128" height="149"/>
+        <element name="Freetime" positionX="18" positionY="90" width="128" height="194"/>
+        <element name="Subassignmentnew" positionX="0" positionY="72" width="128" height="118"/>
+    </elements>
+</model>

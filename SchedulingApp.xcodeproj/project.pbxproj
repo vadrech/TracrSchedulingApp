@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294D587029A9C9F24A22E263 /* Pods_SchedulingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08A1C656811DF966374D1F6 /* Pods_SchedulingAppTests.framework */; };
+		3B4FFA9E03E31C6BC078F778 /* Pods_SchedulingApp_SchedulingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D4D5C010F241A24EF2245A /* Pods_SchedulingApp_SchedulingAppUITests.framework */; };
+		561880AA24AB4A8500558F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880A924AB4A8500558F29 /* AppDelegate.swift */; };
+		561880AC24AB4A8500558F29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880AB24AB4A8500558F29 /* SceneDelegate.swift */; };
+		561880AE24AB4A8500558F29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880AD24AB4A8500558F29 /* ContentView.swift */; };
+		561880B024AB4A8600558F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561880AF24AB4A8600558F29 /* Assets.xcassets */; };
+		561880B324AB4A8600558F29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561880B224AB4A8600558F29 /* Preview Assets.xcassets */; };
+		561880C124AB4A8700558F29 /* SchedulingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880C024AB4A8700558F29 /* SchedulingAppTests.swift */; };
+		561880CC24AB4A8700558F29 /* SchedulingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880CB24AB4A8700558F29 /* SchedulingAppUITests.swift */; };
+		561880DA24AB753700558F29 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880D924AB753700558F29 /* HomeView.swift */; };
+		561880DC24AB759500558F29 /* ClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880DB24AB759500558F29 /* ClassesView.swift */; };
+		561880DE24AB75A600558F29 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880DD24AB75A600558F29 /* FilterView.swift */; };
+		561880E024AB75B100558F29 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561880DF24AB75B100558F29 /* ProgressView.swift */; };
+		5621A72D24C49A0D008ADB07 /* Freetime+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621A72B24C49A0D008ADB07 /* Freetime+CoreDataClass.swift */; };
+		5621A72E24C49A0D008ADB07 /* Freetime+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621A72C24C49A0D008ADB07 /* Freetime+CoreDataProperties.swift */; };
+		5694280725A64A1700F501CE /* GoogleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694280625A64A1700F501CE /* GoogleView.swift */; };
+		56A6108724DDB4330063CE54 /* AssignmentTypes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6108524DDB4330063CE54 /* AssignmentTypes+CoreDataClass.swift */; };
+		56A6108824DDB4330063CE54 /* AssignmentTypes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6108624DDB4330063CE54 /* AssignmentTypes+CoreDataProperties.swift */; };
+		56A66EBE24B77D5000CCD161 /* ClassModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56A66EBC24B77D5000CCD161 /* ClassModel.xcdatamodeld */; };
+		56A66ECD24B7D47A00CCD161 /* Assignment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ECB24B7D47A00CCD161 /* Assignment+CoreDataClass.swift */; };
+		56A66ECE24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ECC24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift */; };
+		56A66ED124B7D4CE00CCD161 /* Classcool+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ECF24B7D4CE00CCD161 /* Classcool+CoreDataClass.swift */; };
+		56A66ED224B7D4CE00CCD161 /* Classcool+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ED024B7D4CE00CCD161 /* Classcool+CoreDataProperties.swift */; };
+		56E8187E25C9F36300AB7422 /* Pods_SchedulingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121F684FEEDDBAA1DD7D231E /* Pods_SchedulingApp.framework */; };
+		56FD9B0524BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD9B0324BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift */; };
+		56FD9B0624BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD9B0424BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift */; };
+		CF3F9947261D13A000529F2D /* ClassModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56A66EBC24B77D5000CCD161 /* ClassModel.xcdatamodeld */; };
+		CF3F994C261D13AA00529F2D /* Subassignmentnew+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD9B0424BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift */; };
+		CF3F9951261D13AD00529F2D /* Subassignmentnew+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD9B0324BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift */; };
+		CF42144726177B4C007EEA78 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42144626177B4C007EEA78 /* WidgetKit.framework */; };
+		CF42144926177B4C007EEA78 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42144826177B4C007EEA78 /* SwiftUI.framework */; };
+		CF42144C26177B4C007EEA78 /* Today_s_Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42144B26177B4C007EEA78 /* Today_s_Tasks.swift */; };
+		CF42144E26177B50007EEA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF42144D26177B50007EEA78 /* Assets.xcassets */; };
+		CF42145226177B50007EEA78 /* Today's TasksExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF42144526177B4C007EEA78 /* Today's TasksExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF84EBC724DC65FD00C5DDEF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84EBC624DC65FD00C5DDEF /* SettingsView.swift */; };
+		CF9F77F1261D3B42009DD207 /* Assignment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ECB24B7D47A00CCD161 /* Assignment+CoreDataClass.swift */; };
+		CF9F77F6261D3B44009DD207 /* Assignment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A66ECC24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift */; };
+		CFADF84424D1D249001A92D5 /* ModalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFADF84324D1D249001A92D5 /* ModalViews.swift */; };
+		CFADF84624D1D45E001A92D5 /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFADF84524D1D45E001A92D5 /* AssignmentView.swift */; };
+		CFDB39E324B8845A0055C48A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB39E224B8845A0055C48A /* Colors.xcassets */; };
+		CFDB3AA524BF4BE00055C48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDB3AA424BF4BE00055C48A /* LaunchScreen.storyboard */; };
+		CFF1E4A025A0FEFE004190EC /* FreeTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E49F25A0FEFE004190EC /* FreeTimeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561880BD24AB4A8700558F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618809E24AB4A8500558F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561880A524AB4A8500558F29;
+			remoteInfo = SchedulingApp;
+		};
+		561880C824AB4A8700558F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618809E24AB4A8500558F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561880A524AB4A8500558F29;
+			remoteInfo = SchedulingApp;
+		};
+		CF42145026177B50007EEA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618809E24AB4A8500558F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF42144426177B4C007EEA78;
+			remoteInfo = "Today's TasksExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF42145626177B50007EEA78 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF42145226177B50007EEA78 /* Today's TasksExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BFAE6D61E689EB4D5BA6999 /* Pods-SchedulingApp-SchedulingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingApp-SchedulingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		121F684FEEDDBAA1DD7D231E /* Pods_SchedulingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedulingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17436ADC39CA0067EB0D1EFC /* Pods-SchedulingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingAppTests.release.xcconfig"; path = "Target Support Files/Pods-SchedulingAppTests/Pods-SchedulingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		561880A624AB4A8500558F29 /* SchedulingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedulingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561880A924AB4A8500558F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561880AB24AB4A8500558F29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		561880AD24AB4A8500558F29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		561880AF24AB4A8600558F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561880B224AB4A8600558F29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		561880B724AB4A8600558F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561880BC24AB4A8700558F29 /* SchedulingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561880C024AB4A8700558F29 /* SchedulingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingAppTests.swift; sourceTree = "<group>"; };
+		561880C224AB4A8700558F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561880C724AB4A8700558F29 /* SchedulingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561880CB24AB4A8700558F29 /* SchedulingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingAppUITests.swift; sourceTree = "<group>"; };
+		561880CD24AB4A8700558F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561880D924AB753700558F29 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		561880DB24AB759500558F29 /* ClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesView.swift; sourceTree = "<group>"; };
+		561880DD24AB75A600558F29 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		561880DF24AB75B100558F29 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		5621A72B24C49A0D008ADB07 /* Freetime+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Freetime+CoreDataClass.swift"; path = "SchedulingApp/Freetime+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5621A72C24C49A0D008ADB07 /* Freetime+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Freetime+CoreDataProperties.swift"; path = "SchedulingApp/Freetime+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5634A620261E118600E349C6 /* Today's TasksExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Today's TasksExtension.entitlements"; sourceTree = "<group>"; };
+		5634A621261E118D00E349C6 /* SchedulingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchedulingApp.entitlements; sourceTree = "<group>"; };
+		5694280625A64A1700F501CE /* GoogleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleView.swift; sourceTree = "<group>"; };
+		56A6108524DDB4330063CE54 /* AssignmentTypes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AssignmentTypes+CoreDataClass.swift"; path = "SchedulingApp/AssignmentTypes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56A6108624DDB4330063CE54 /* AssignmentTypes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AssignmentTypes+CoreDataProperties.swift"; path = "SchedulingApp/AssignmentTypes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		56A66EBD24B77D5000CCD161 /* ClassModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassModel.xcdatamodel; sourceTree = "<group>"; };
+		56A66ECB24B7D47A00CCD161 /* Assignment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Assignment+CoreDataClass.swift"; path = "SchedulingApp/Assignment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56A66ECC24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Assignment+CoreDataProperties.swift"; path = "SchedulingApp/Assignment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		56A66ECF24B7D4CE00CCD161 /* Classcool+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Classcool+CoreDataClass.swift"; path = "SchedulingApp/Classcool+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56A66ED024B7D4CE00CCD161 /* Classcool+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Classcool+CoreDataProperties.swift"; path = "SchedulingApp/Classcool+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		56FD9B0324BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Subassignmentnew+CoreDataClass.swift"; path = "SchedulingApp/Subassignmentnew+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56FD9B0424BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Subassignmentnew+CoreDataProperties.swift"; path = "SchedulingApp/Subassignmentnew+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		68B7D719BA539FAFACD648E4 /* Pods-SchedulingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingApp.debug.xcconfig"; path = "Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		787C9D6B86298D157C3D001D /* Pods-SchedulingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SchedulingAppTests/Pods-SchedulingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89F9AA62C5C65484364DA65E /* Pods-SchedulingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingApp.release.xcconfig"; path = "Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp.release.xcconfig"; sourceTree = "<group>"; };
+		99D4D5C010F241A24EF2245A /* Pods_SchedulingApp_SchedulingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedulingApp_SchedulingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A36527D173EFD02F5953C0 /* Pods-SchedulingApp-SchedulingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulingApp-SchedulingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF42144526177B4C007EEA78 /* Today's TasksExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Today's TasksExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF42144626177B4C007EEA78 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CF42144826177B4C007EEA78 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CF42144B26177B4C007EEA78 /* Today_s_Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today_s_Tasks.swift; sourceTree = "<group>"; };
+		CF42144D26177B50007EEA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF42144F26177B50007EEA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF84EBC624DC65FD00C5DDEF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF9F77D7261D2161009DD207 /* SchedulingAppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchedulingAppDebug.entitlements; sourceTree = "<group>"; };
+		CF9F77DC261D2170009DD207 /* Today's TasksExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Today's TasksExtensionDebug.entitlements"; sourceTree = "<group>"; };
+		CFADF84324D1D249001A92D5 /* ModalViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViews.swift; sourceTree = "<group>"; };
+		CFADF84524D1D45E001A92D5 /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
+		CFDB39E224B8845A0055C48A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CFDB3AA424BF4BE00055C48A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF1E49F25A0FEFE004190EC /* FreeTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTimeView.swift; sourceTree = "<group>"; };
+		E08A1C656811DF966374D1F6 /* Pods_SchedulingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedulingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561880A324AB4A8500558F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E8187E25C9F36300AB7422 /* Pods_SchedulingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880B924AB4A8700558F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294D587029A9C9F24A22E263 /* Pods_SchedulingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880C424AB4A8700558F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4FFA9E03E31C6BC078F778 /* Pods_SchedulingApp_SchedulingAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF42144226177B4C007EEA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF42144926177B4C007EEA78 /* SwiftUI.framework in Frameworks */,
+				CF42144726177B4C007EEA78 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5618809D24AB4A8500558F29 = {
+			isa = PBXGroup;
+			children = (
+				5634A620261E118600E349C6 /* Today's TasksExtension.entitlements */,
+				CF9F77DC261D2170009DD207 /* Today's TasksExtensionDebug.entitlements */,
+				56A6108524DDB4330063CE54 /* AssignmentTypes+CoreDataClass.swift */,
+				56A6108624DDB4330063CE54 /* AssignmentTypes+CoreDataProperties.swift */,
+				5621A72B24C49A0D008ADB07 /* Freetime+CoreDataClass.swift */,
+				5621A72C24C49A0D008ADB07 /* Freetime+CoreDataProperties.swift */,
+				56FD9B0324BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift */,
+				56FD9B0424BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift */,
+				56A66EBC24B77D5000CCD161 /* ClassModel.xcdatamodeld */,
+				56A66ECF24B7D4CE00CCD161 /* Classcool+CoreDataClass.swift */,
+				56A66ED024B7D4CE00CCD161 /* Classcool+CoreDataProperties.swift */,
+				56A66ECB24B7D47A00CCD161 /* Assignment+CoreDataClass.swift */,
+				56A66ECC24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift */,
+				561880A824AB4A8500558F29 /* SchedulingApp */,
+				561880BF24AB4A8700558F29 /* SchedulingAppTests */,
+				561880CA24AB4A8700558F29 /* SchedulingAppUITests */,
+				CF42144A26177B4C007EEA78 /* Today's Tasks */,
+				561880A724AB4A8500558F29 /* Products */,
+				800E6915377F0F87F972C998 /* Pods */,
+				9A5AA70F255256B39ECAFDC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		561880A724AB4A8500558F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561880A624AB4A8500558F29 /* SchedulingApp.app */,
+				561880BC24AB4A8700558F29 /* SchedulingAppTests.xctest */,
+				561880C724AB4A8700558F29 /* SchedulingAppUITests.xctest */,
+				CF42144526177B4C007EEA78 /* Today's TasksExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561880A824AB4A8500558F29 /* SchedulingApp */ = {
+			isa = PBXGroup;
+			children = (
+				5634A621261E118D00E349C6 /* SchedulingApp.entitlements */,
+				CF9F77D7261D2161009DD207 /* SchedulingAppDebug.entitlements */,
+				CFDB3AA424BF4BE00055C48A /* LaunchScreen.storyboard */,
+				561880A924AB4A8500558F29 /* AppDelegate.swift */,
+				561880AB24AB4A8500558F29 /* SceneDelegate.swift */,
+				561880AD24AB4A8500558F29 /* ContentView.swift */,
+				561880AF24AB4A8600558F29 /* Assets.xcassets */,
+				CFDB39E224B8845A0055C48A /* Colors.xcassets */,
+				561880B724AB4A8600558F29 /* Info.plist */,
+				561880B124AB4A8600558F29 /* Preview Content */,
+				561880D924AB753700558F29 /* HomeView.swift */,
+				CFADF84324D1D249001A92D5 /* ModalViews.swift */,
+				561880DB24AB759500558F29 /* ClassesView.swift */,
+				561880DD24AB75A600558F29 /* FilterView.swift */,
+				CFADF84524D1D45E001A92D5 /* AssignmentView.swift */,
+				561880DF24AB75B100558F29 /* ProgressView.swift */,
+				CF84EBC624DC65FD00C5DDEF /* SettingsView.swift */,
+				CFF1E49F25A0FEFE004190EC /* FreeTimeView.swift */,
+				5694280625A64A1700F501CE /* GoogleView.swift */,
+			);
+			path = SchedulingApp;
+			sourceTree = "<group>";
+		};
+		561880B124AB4A8600558F29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				561880B224AB4A8600558F29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		561880BF24AB4A8700558F29 /* SchedulingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				561880C024AB4A8700558F29 /* SchedulingAppTests.swift */,
+				561880C224AB4A8700558F29 /* Info.plist */,
+			);
+			path = SchedulingAppTests;
+			sourceTree = "<group>";
+		};
+		561880CA24AB4A8700558F29 /* SchedulingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561880CB24AB4A8700558F29 /* SchedulingAppUITests.swift */,
+				561880CD24AB4A8700558F29 /* Info.plist */,
+			);
+			path = SchedulingAppUITests;
+			sourceTree = "<group>";
+		};
+		800E6915377F0F87F972C998 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B7D719BA539FAFACD648E4 /* Pods-SchedulingApp.debug.xcconfig */,
+				89F9AA62C5C65484364DA65E /* Pods-SchedulingApp.release.xcconfig */,
+				B8A36527D173EFD02F5953C0 /* Pods-SchedulingApp-SchedulingAppUITests.debug.xcconfig */,
+				0BFAE6D61E689EB4D5BA6999 /* Pods-SchedulingApp-SchedulingAppUITests.release.xcconfig */,
+				787C9D6B86298D157C3D001D /* Pods-SchedulingAppTests.debug.xcconfig */,
+				17436ADC39CA0067EB0D1EFC /* Pods-SchedulingAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A5AA70F255256B39ECAFDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				121F684FEEDDBAA1DD7D231E /* Pods_SchedulingApp.framework */,
+				99D4D5C010F241A24EF2245A /* Pods_SchedulingApp_SchedulingAppUITests.framework */,
+				E08A1C656811DF966374D1F6 /* Pods_SchedulingAppTests.framework */,
+				CF42144626177B4C007EEA78 /* WidgetKit.framework */,
+				CF42144826177B4C007EEA78 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF42144A26177B4C007EEA78 /* Today's Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CF42144B26177B4C007EEA78 /* Today_s_Tasks.swift */,
+				CF42144D26177B50007EEA78 /* Assets.xcassets */,
+				CF42144F26177B50007EEA78 /* Info.plist */,
+			);
+			path = "Today's Tasks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561880A524AB4A8500558F29 /* SchedulingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561880D024AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingApp" */;
+			buildPhases = (
+				50FFE2F0BF05D06427071462 /* [CP] Check Pods Manifest.lock */,
+				561880A224AB4A8500558F29 /* Sources */,
+				561880A324AB4A8500558F29 /* Frameworks */,
+				561880A424AB4A8500558F29 /* Resources */,
+				505963235A63FE95EFA2BE45 /* [CP] Embed Pods Frameworks */,
+				8C74C16D9E8DB51EDC17A1EE /* [CP] Copy Pods Resources */,
+				CF42145626177B50007EEA78 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF42145126177B50007EEA78 /* PBXTargetDependency */,
+			);
+			name = SchedulingApp;
+			productName = SchedulingApp;
+			productReference = 561880A624AB4A8500558F29 /* SchedulingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561880BB24AB4A8700558F29 /* SchedulingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561880D324AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingAppTests" */;
+			buildPhases = (
+				C49DB37C8304AD7E1C10D3A1 /* [CP] Check Pods Manifest.lock */,
+				561880B824AB4A8700558F29 /* Sources */,
+				561880B924AB4A8700558F29 /* Frameworks */,
+				561880BA24AB4A8700558F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561880BE24AB4A8700558F29 /* PBXTargetDependency */,
+			);
+			name = SchedulingAppTests;
+			productName = SchedulingAppTests;
+			productReference = 561880BC24AB4A8700558F29 /* SchedulingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561880C624AB4A8700558F29 /* SchedulingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561880D624AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingAppUITests" */;
+			buildPhases = (
+				9014EE02104CC64AE744BC9A /* [CP] Check Pods Manifest.lock */,
+				561880C324AB4A8700558F29 /* Sources */,
+				561880C424AB4A8700558F29 /* Frameworks */,
+				561880C524AB4A8700558F29 /* Resources */,
+				8911E409310891FC31D3BF4E /* [CP] Embed Pods Frameworks */,
+				DD8C4E17D3A171D0FF07C397 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561880C924AB4A8700558F29 /* PBXTargetDependency */,
+			);
+			name = SchedulingAppUITests;
+			productName = SchedulingAppUITests;
+			productReference = 561880C724AB4A8700558F29 /* SchedulingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CF42144426177B4C007EEA78 /* Today's TasksExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF42145326177B50007EEA78 /* Build configuration list for PBXNativeTarget "Today's TasksExtension" */;
+			buildPhases = (
+				CF42144126177B4C007EEA78 /* Sources */,
+				CF42144226177B4C007EEA78 /* Frameworks */,
+				CF42144326177B4C007EEA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Today's TasksExtension";
+			productName = "Today's TasksExtension";
+			productReference = CF42144526177B4C007EEA78 /* Today's TasksExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5618809E24AB4A8500558F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					"com.apple.gamecenter.Leaderboard Set",
+				);
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Tejas Krishnan";
+				TargetAttributes = {
+					561880A524AB4A8500558F29 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					561880BB24AB4A8700558F29 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 561880A524AB4A8500558F29;
+					};
+					561880C624AB4A8700558F29 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 561880A524AB4A8500558F29;
+					};
+					CF42144426177B4C007EEA78 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 561880A124AB4A8500558F29 /* Build configuration list for PBXProject "SchedulingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5618809D24AB4A8500558F29;
+			productRefGroup = 561880A724AB4A8500558F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561880A524AB4A8500558F29 /* SchedulingApp */,
+				561880BB24AB4A8700558F29 /* SchedulingAppTests */,
+				561880C624AB4A8700558F29 /* SchedulingAppUITests */,
+				CF42144426177B4C007EEA78 /* Today's TasksExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561880A424AB4A8500558F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB39E324B8845A0055C48A /* Colors.xcassets in Resources */,
+				561880B324AB4A8600558F29 /* Preview Assets.xcassets in Resources */,
+				CFDB3AA524BF4BE00055C48A /* LaunchScreen.storyboard in Resources */,
+				561880B024AB4A8600558F29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880BA24AB4A8700558F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880C524AB4A8700558F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF42144326177B4C007EEA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF42144E26177B50007EEA78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		505963235A63FE95EFA2BE45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FFE2F0BF05D06427071462 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchedulingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8911E409310891FC31D3BF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C74C16D9E8DB51EDC17A1EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp/Pods-SchedulingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9014EE02104CC64AE744BC9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchedulingApp-SchedulingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49DB37C8304AD7E1C10D3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchedulingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8C4E17D3A171D0FF07C397 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchedulingApp-SchedulingAppUITests/Pods-SchedulingApp-SchedulingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561880A224AB4A8500558F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFADF84424D1D249001A92D5 /* ModalViews.swift in Sources */,
+				561880AA24AB4A8500558F29 /* AppDelegate.swift in Sources */,
+				56A6108824DDB4330063CE54 /* AssignmentTypes+CoreDataProperties.swift in Sources */,
+				561880DA24AB753700558F29 /* HomeView.swift in Sources */,
+				561880AC24AB4A8500558F29 /* SceneDelegate.swift in Sources */,
+				561880AE24AB4A8500558F29 /* ContentView.swift in Sources */,
+				CF84EBC724DC65FD00C5DDEF /* SettingsView.swift in Sources */,
+				561880E024AB75B100558F29 /* ProgressView.swift in Sources */,
+				561880DE24AB75A600558F29 /* FilterView.swift in Sources */,
+				56A66ECE24B7D47A00CCD161 /* Assignment+CoreDataProperties.swift in Sources */,
+				5694280725A64A1700F501CE /* GoogleView.swift in Sources */,
+				56A66ED224B7D4CE00CCD161 /* Classcool+CoreDataProperties.swift in Sources */,
+				5621A72E24C49A0D008ADB07 /* Freetime+CoreDataProperties.swift in Sources */,
+				56A66EBE24B77D5000CCD161 /* ClassModel.xcdatamodeld in Sources */,
+				56A6108724DDB4330063CE54 /* AssignmentTypes+CoreDataClass.swift in Sources */,
+				5621A72D24C49A0D008ADB07 /* Freetime+CoreDataClass.swift in Sources */,
+				561880DC24AB759500558F29 /* ClassesView.swift in Sources */,
+				CFADF84624D1D45E001A92D5 /* AssignmentView.swift in Sources */,
+				56FD9B0624BF80FC0004BC0B /* Subassignmentnew+CoreDataProperties.swift in Sources */,
+				56A66ECD24B7D47A00CCD161 /* Assignment+CoreDataClass.swift in Sources */,
+				CFF1E4A025A0FEFE004190EC /* FreeTimeView.swift in Sources */,
+				56FD9B0524BF80FC0004BC0B /* Subassignmentnew+CoreDataClass.swift in Sources */,
+				56A66ED124B7D4CE00CCD161 /* Classcool+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880B824AB4A8700558F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561880C124AB4A8700558F29 /* SchedulingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561880C324AB4A8700558F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561880CC24AB4A8700558F29 /* SchedulingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF42144126177B4C007EEA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F77F1261D3B42009DD207 /* Assignment+CoreDataClass.swift in Sources */,
+				CF3F9951261D13AD00529F2D /* Subassignmentnew+CoreDataClass.swift in Sources */,
+				CF9F77F6261D3B44009DD207 /* Assignment+CoreDataProperties.swift in Sources */,
+				CF3F994C261D13AA00529F2D /* Subassignmentnew+CoreDataProperties.swift in Sources */,
+				CF3F9947261D13A000529F2D /* ClassModel.xcdatamodeld in Sources */,
+				CF42144C26177B4C007EEA78 /* Today_s_Tasks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561880BE24AB4A8700558F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561880A524AB4A8500558F29 /* SchedulingApp */;
+			targetProxy = 561880BD24AB4A8700558F29 /* PBXContainerItemProxy */;
+		};
+		561880C924AB4A8700558F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561880A524AB4A8500558F29 /* SchedulingApp */;
+			targetProxy = 561880C824AB4A8700558F29 /* PBXContainerItemProxy */;
+		};
+		CF42145126177B50007EEA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF42144426177B4C007EEA78 /* Today's TasksExtension */;
+			targetProxy = CF42145026177B50007EEA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		561880CE24AB4A8700558F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		561880CF24AB4A8700558F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561880D124AB4A8700558F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B7D719BA539FAFACD648E4 /* Pods-SchedulingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SchedulingApp/SchedulingAppDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"SchedulingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = SchedulingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schedulingapp.tracr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		561880D224AB4A8700558F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F9AA62C5C65484364DA65E /* Pods-SchedulingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SchedulingApp/SchedulingApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"SchedulingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+				);
+				INFOPLIST_FILE = SchedulingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schedulingapp.tracr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		561880D424AB4A8700558F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787C9D6B86298D157C3D001D /* Pods-SchedulingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedulingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hello.SchedulingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchedulingApp.app/SchedulingApp";
+			};
+			name = Debug;
+		};
+		561880D524AB4A8700558F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17436ADC39CA0067EB0D1EFC /* Pods-SchedulingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedulingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hello.SchedulingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchedulingApp.app/SchedulingApp";
+			};
+			name = Release;
+		};
+		561880D724AB4A8700558F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A36527D173EFD02F5953C0 /* Pods-SchedulingApp-SchedulingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP3T865764;
+				INFOPLIST_FILE = SchedulingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hello.SchedulingAppUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.schedulingapp.tracr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchedulingApp;
+			};
+			name = Debug;
+		};
+		561880D824AB4A8700558F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BFAE6D61E689EB4D5BA6999 /* Pods-SchedulingApp-SchedulingAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP3T865764;
+				INFOPLIST_FILE = SchedulingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hello.SchedulingAppUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.schedulingapp.tracr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchedulingApp;
+			};
+			name = Release;
+		};
+		CF42145426177B50007EEA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Today's TasksExtensionDebug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = QP3T865764;
+				INFOPLIST_FILE = "Today's Tasks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schedulingapp.tracr.tracrwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF42145526177B50007EEA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Today's TasksExtension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = QP3T865764;
+				INFOPLIST_FILE = "Today's Tasks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schedulingapp.tracr.tracrwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561880A124AB4A8500558F29 /* Build configuration list for PBXProject "SchedulingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561880CE24AB4A8700558F29 /* Debug */,
+				561880CF24AB4A8700558F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561880D024AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561880D124AB4A8700558F29 /* Debug */,
+				561880D224AB4A8700558F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561880D324AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561880D424AB4A8700558F29 /* Debug */,
+				561880D524AB4A8700558F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561880D624AB4A8700558F29 /* Build configuration list for PBXNativeTarget "SchedulingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561880D724AB4A8700558F29 /* Debug */,
+				561880D824AB4A8700558F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF42145326177B50007EEA78 /* Build configuration list for PBXNativeTarget "Today's TasksExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF42145426177B50007EEA78 /* Debug */,
+				CF42145526177B50007EEA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56A66EBC24B77D5000CCD161 /* ClassModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56A66EBD24B77D5000CCD161 /* ClassModel.xcdatamodel */,
+			);
+			currentVersion = 56A66EBD24B77D5000CCD161 /* ClassModel.xcdatamodel */;
+			path = ClassModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5618809E24AB4A8500558F29 /* Project object */;
+}
